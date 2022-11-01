@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document html</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>LISTE DE CLASSE</h1>
+        <!--table nousbpermet de crée des tableaux-->
+
+        <table>
+        <!--thead permet de cree l'entete de notre tableaupour le haed nous avons aussi la balise th-->    
+            <thead>
+                <td>NOM</td>
+                <td>PRENOM</td>
+                <td>SEX</td>
+                <td>MATRICULE</td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>kouakou</td>
+                    <td>kan jean romaric</td>
+                    <td>M</td>
+                    <td>13021258F</td>
+                </tr>
+
+                <tr>
+                    <td>kouakou</td>
+                    <td>Adjoua manique Raissa</td>
+                    <td>F</td>
+                    <td>13031257Q</td>
+                </tr>
+
+                <tr>
+                    <td>kouakou</td>
+                    <td>kouadio junior</td>
+                    <td>M</td>
+                    <td>17001246P</td>
+                </tr>
+
+                <tr>
+                    <td>kouakou</td>
+                    <td>Aya Naomie</td>
+                    <td>F</td>
+                    <td>13022372V</td>
+                </tr>
+            </tbody>
+
+            <!--tfoot permet de metre un piet de tableau. colspan permet de fusioner les colonnes et rowspan permet
+            de fusionner les ligne-->    
+            <tfoot>
+                <tr>
+                    <td colspan="3"> TOTAL</td>
+                </tr>
+            </tfoot>
+        </table>
+
+
+        <h1>LES FORMULAIRES</h1>
+        <form action="contact.html">
+            <div>
+                <label for="nom">NOM</label>
+                <input type="text" id="nom">
+            </div>
+
+            <div>
+                <label for="prenom">PRENOM</label>
+                <input type="text" id="prenom">
+            </div>
+            
+            <div>
+                <label for="contact">CONTACTE</label>
+                <input type="number" id="contact">
+            </div>
+
+            <div>
+                <label for="mail">MAIL</label>
+                <input type="email" id="mail">
+            </div>
+
+            <div>
+                <label for="date">DATE</label>
+                <input type="date" id="date">
+            </div>
+
+            <div>
+                <label for="h">Homme</label>
+                <input type="radio" name="radio" id="h">
+
+                <label for="f">Femme</label>
+                <input type="radio" name="radio" id="f">
+            </div>
+
+            <div>
+                <label for="utl">Acceptez vous les contition d'utilisation</label>
+                <input type="checkbox" name="check" id="utl">
+
+            </div>
+
+
+        <div>
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="supprimer">
+            </div>
+
+        </form>
+
+
+    </body>
+</html>
